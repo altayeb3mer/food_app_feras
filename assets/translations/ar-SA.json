@@ -1,0 +1,40 @@
+{
+  "app_name": "تطبيق مطاعم",
+  "common": {
+    "send": "ارسال"
+  },
+  "auth_screen": {
+    "login_title": "تسجيل الدخول",
+    "login_sub_title": "سجل دخولك للمواصلة",
+    "phone": "الهاتف",
+    "password": "كلمة المرور",
+    "do_you_forgot_password": "نسيت كلمة المرور؟",
+    "Login": "تسجيل الدخول",
+    "dont_have_account": "ليس لديك حساب؟",
+    "sign_up_title": "سجل الان",
+    "sign_up": "تسجيل",
+    "sign_up_sub_title": "املئ الحقول للمواصلة",
+    "first_name": "الاسم الاول",
+    "last_name": "الاسم الاخير",
+    "confirm_password": "تاكيد كلمة السر",
+    "already_have_account": "لديك حساب مسبقا؟",
+    "forgot_password": "نسيت كلمة السر",
+    "forgot_password_desc": "اكتب رقم الهاتف لتغيير كلمة السر",
+    "change_your_password": "تغيير كلمة السر",
+    "confirm_new_pass_desc": "تاكيد كلمة السر",
+    "otp_title": "تاكيد رقم الهاتف",
+    "otp_sub_title": "تم ارسال الكود الى {}",
+    "logout": "تسجيل خروج",
+    "email": "البريد الالكتروني"
+  },
+  "form_validator": {
+    "required_field": "الحقل مطلوب",
+    "email": "الرجاء كتابة ايميل صحيح",
+    "password": "كلمة السر يجب ان تكون ٦ خانات فاكثر"
+  },
+  "item_details_screen": {
+    "distance": "المسافة",
+    "cost": "توصيل",
+    "close_at": "يقفل في"
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "app_name":"Food App EN",
+    "common": {
+        "send": "Send"
+    },
+    "auth_screen":{
+        "login_title":"Login In Now",
+        "login_sub_title":"Login to continue To app",
+        "phone":"phone",
+        "password":"password",
+        "do_you_forgot_password":"Forgot Password?",
+        "Login":"Login",
+        "dont_have_account":"You Don’t have Account?",
+        "sign_up_title":"Sign up now",
+        "sign_up":"Sign Up",
+        "sign_up_sub_title":"Fill this information to sign up",
+        "first_name":"First Name",
+        "last_name":"Last Name",
+        "confirm_password":"Confirm Password",
+        "already_have_account":"Already  have Account?",
+        "forgot_password": "Forgot Password",
+        "forgot_password_desc": "Type your phone to change password",
+        "change_your_password": "Change your password",
+        "confirm_new_pass_desc": "Type and confirm new password",
+        "otp_title": "Verify your phone",
+        "otp_sub_title": "Otp sent to your phone {}",
+        "logout": "Logout",
+        "email": "Email"
+    },
+    "form_validator": {
+        "required_field": "please fill the field",
+        "email": "Please enter a valid email",
+        "password": "Password must be at least 6 characters long"
+    },
+    "item_details_screen": {
+        "distance": "Distance",
+        "cost": "Cost",
+        "close_at": "Close at"
+    }
+}
