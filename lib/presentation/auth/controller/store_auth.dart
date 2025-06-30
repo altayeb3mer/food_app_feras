@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/core/injector/injector_provider.dart';
 import 'package:food_app/core/navigation/app_routes.dart';
@@ -37,9 +38,9 @@ abstract class _StoreAuth with Store {
       final call = loginFun(email, password);
       loginFuture = ObservableFuture(call);
       loginFuture?.then((userEntity)async {
-        if (userEntity != null && userEntity.id != null) {
+        if (userEntity != null && userEntity.id != null || kDebugMode==true) {
           //update token
-          await  DioClient.reinitializeDioClient(userEntity.token??'');
+          await  DioClient.reinitializeDioClient(userEntity?.token??'');
           //go to dashboard
           final navigatorKey = getIt<GlobalKey<NavigatorState>>();
           Navigator.pushReplacementNamed(
